@@ -13,6 +13,8 @@ body {
     width: 50%;
     margin: auto;
     padding: 10px;
+    border: solid 3px black;
+    border-radius: 20px;
 }
 
 h1 {
@@ -40,19 +42,23 @@ h2 {
 .dev {
     display: grid;
     grid-template-areas: "img img img frase frase";
-    
 
 }
 
 .dev-img {
     grid-area: img;
+
 }
+
 
 .dev-frase {
     grid-area: frase;
-    padding: 5px;
+    padding: 10px;
+    width: 70%;
 
 }
+
+
 
 a {
     text-decoration: none;
@@ -67,4 +73,10 @@ li {
     border-radius: 20px;
     border: solid 2px black;
     box-shadow: 8px 8px 15px 12px rgba(170, 32, 32, 0.5);
+}
+
+@media only screen and (min-width:1860px) {
+    #frase2 {
+        padding: 10px 40px;
+    }
 }
