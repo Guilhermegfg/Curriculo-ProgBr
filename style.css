@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#container {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    padding: 5px 0;
+}
+
+#dados {
+    line-height: 30px;
+
+}
+
+#dados > a {
+    text-decoration: none;
+    list-style: none;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+#formacao {
+    line-height: 20px;
+}
+
+.dev {
+    display: grid;
+    grid-template-areas: "img img img frase frase";
+    
+
+}
+
+.dev-img {
+    grid-area: img;
+}
+
+.dev-frase {
+    grid-area: frase;
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 2.5px 0;
+}
+
+#container:hover {
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 8px 8px 15px 12px rgba(170, 32, 32, 0.5);
+}
