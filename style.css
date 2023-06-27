@@ -80,3 +80,26 @@ li {
         padding: 10px 40px;
     }
 }
+
+@media only screen and (max-width:550px) {
+    #container {
+        width: 100%;
+    }
+
+    .dev-frase {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+
+@media only screen and (max-width:900px) {
+    #container {
+        width: 80%;
+    }
+
+    .dev-frase {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
