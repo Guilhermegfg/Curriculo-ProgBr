@@ -1,4 +1,4 @@
-<h1 align="center"> Página de Receitas </h1>
+<h1 align="center"> Currículo </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
